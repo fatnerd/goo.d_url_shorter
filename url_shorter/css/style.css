@@ -1,0 +1,48 @@
+body,html{
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	margin: 0;
+	height: 100%;
+	
+}
+
+.title{
+	font-weight: normal;
+}
+
+.container, .bg{
+	position: relative;
+	background-position: center;	
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg{
+	height: 100%;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.container{
+	position: absolute;
+	left: 0;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+
+}
+
+input{
+	background-color: transparent;
+	border-radius: 25px;
+	padding: 10px;
+	border: 2px solid #fff;
+	margin: 10px;
+	font-size: 20px;
+
+}
+
+input[type= "url"]{
+	width: 300px;
+
+}
